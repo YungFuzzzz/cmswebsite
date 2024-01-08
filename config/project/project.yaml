@@ -1,0 +1,22 @@
+dateModified: 1704643310
+email:
+  fromEmail: faisalcollinet01@gmail.com
+  fromName: examendev3
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    6380f8e3-eeef-4d6c-be84-cf71930d8202: examendev3 # examendev3
+    e3eae8ac-df85-453d-8d66-4ad7a7769299: Common # Common
+    e13fb833-3675-49d7-b89b-276702c9db8c: examendev3 # examendev3
+system:
+  edition: solo
+  live: true
+  name: examendev3
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
