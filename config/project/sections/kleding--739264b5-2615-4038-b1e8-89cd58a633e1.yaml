@@ -1,12 +1,12 @@
 defaultPlacement: end
 enableVersioning: true
-handle: kledingstukken
-name: kledingstukken
+handle: kleding
+name: kleding
 propagationMethod: all
 siteSettings:
   e13fb833-3675-49d7-b89b-276702c9db8c: # examendev3
     enabledByDefault: true
     hasUrls: true
-    template: kledingstukken/_entry
-    uriFormat: 'kledingstukken/{slug}'
+    template: kleding/_entry
+    uriFormat: 'kleding/{slug}'
 type: channel

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{craft.app.language}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{siteName}}</title>
+    {% do craft.app.view.registerCssFile('@web/styles/style.css') %}
+</head>
+<body>
+<header>
+        <h1>Clothing Shop</h1>
+    </header>
+
+    <section>
+        <h2>Available items</h2>
+        {% block content %}
+        
+    {% endblock %}
+    </section>
+</body>
+</html>

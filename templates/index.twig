@@ -1,36 +1,18 @@
-{# templates/index.twig #}
+{% extends "_layout" %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothing Shop</title>
-    <link rel="stylesheet"href">
-</head>
-<body>
+{% block content %}   
+  <section class="kleding-section">
+  {% set entries = craft.entries().section('kleding').limit(5) %}
 
-    <h1>Welcome to our clothing shop</h1>
-
-    {% set clothingItems = craft.entries.section('kledingItems').all() %}
-
-    {% if clothingItems|length %}
-        <ul>
-            {% for item in clothingItems %}
-                <li>
-                    <h2>{{ item.title }}</h2>
-                    <p>Prijs: {{ item.prijs }}</p>
-                    <p>{{ item.beschrijving }}</p>
-                    {% if item.afbeelding.first() %}
-                        <img src="{{ item.afbeelding.first().getUrl('thumbnail') }}" alt="{{ item.title }}">
-                    {% endif %}
+  {% for entry in entries %}
+    <ul>
+      <li>
+                    <p>{{ entry.kledingNaam }}</p>
+                    <p>{{ entry.image }}</p>
+                    <p>{{ entry.maat }}</p>
+                    <p>{{ entry.prijs}}</p>
                 </li>
-            {% endfor %}
-        </ul>
-    {% else %}
-        <p>Sorry, there are no items you're searching for</p>
-    {% endif %}
-
-</body>
-</html>
+    </ul>
+  {% endfor %}
+  
+{% endblock %}

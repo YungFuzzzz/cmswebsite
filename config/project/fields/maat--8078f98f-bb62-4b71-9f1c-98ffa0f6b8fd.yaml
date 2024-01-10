@@ -1,0 +1,19 @@
+columnSuffix: kuhsrqkb
+contentColumnType: string(4)
+fieldGroup: 9093a0f4-4f15-4a41-9f9e-8fa12be41553 # kleding
+handle: maat
+instructions: null
+name: maat
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 1
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
