@@ -1,13 +1,28 @@
-dateModified: 1704643310
+dateModified: 1704730941
 email:
   fromEmail: faisalcollinet01@gmail.com
   fromName: examendev3
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
 meta:
   __names__:
+    19d777a8-2365-4326-95f8-399f35f6e2ee: kledingstukken # kledingstukken
     6380f8e3-eeef-4d6c-be84-cf71930d8202: examendev3 # examendev3
+    dcffa7b5-64a2-4b5e-b81f-8b880c38a552: Default # Default
     e3eae8ac-df85-453d-8d66-4ad7a7769299: Common # Common
     e13fb833-3675-49d7-b89b-276702c9db8c: examendev3 # examendev3
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
