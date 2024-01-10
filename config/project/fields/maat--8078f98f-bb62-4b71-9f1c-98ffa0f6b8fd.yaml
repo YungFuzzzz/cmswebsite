@@ -1,5 +1,5 @@
 columnSuffix: kuhsrqkb
-contentColumnType: string(4)
+contentColumnType: string(8)
 fieldGroup: 9093a0f4-4f15-4a41-9f9e-8fa12be41553 # kleding
 handle: maat
 instructions: null
@@ -7,7 +7,7 @@ name: maat
 searchable: false
 settings:
   byteLimit: null
-  charLimit: 1
+  charLimit: 2
   code: false
   columnType: null
   initialRows: 4

@@ -1,9 +1,9 @@
 columnSuffix: null
 contentColumnType: string
 fieldGroup: 9093a0f4-4f15-4a41-9f9e-8fa12be41553 # kleding
-handle: image
+handle: kledingImage
 instructions: null
-name: image
+name: 'kleding image'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -11,8 +11,8 @@ settings:
   allowUploads: true
   allowedKinds: null
   branchLimit: null
-  defaultUploadLocationSource: null
-  defaultUploadLocationSubpath: '@web'
+  defaultUploadLocationSource: 'volume:a95bdf60-81ed-4414-ab1d-3a2e0ed60d5b' # kledinstuks
+  defaultUploadLocationSubpath: null
   localizeRelations: false
   maintainHierarchy: false
   maxRelations: null
@@ -21,7 +21,7 @@ settings:
   restrictFiles: false
   restrictLocation: false
   restrictedDefaultUploadSubpath: null
-  restrictedLocationSource: null
+  restrictedLocationSource: 'volume:a95bdf60-81ed-4414-ab1d-3a2e0ed60d5b' # kledinstuks
   restrictedLocationSubpath: null
   selectionCondition:
     __assoc__:
@@ -72,7 +72,7 @@ settings:
                 - maxValue
                 - ''
   selectionLabel: null
-  showSiteMenu: false
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources: '*'

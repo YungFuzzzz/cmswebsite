@@ -1,0 +1,56 @@
+fieldLayouts:
+  fb980afb-9b84-4017-b916-a2a6bdf836e2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 7381aae0-7c8f-41b6-bfd4-5d8dda6f505f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: da909e0d-92bd-4bf2-b37f-940584bc6ff5 # kleding image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 736c9076-1bf5-42b3-be77-cd119cf1f378
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ab91de01-b005-4550-a864-047f9fc0e08f
+        userCondition: null
+fs: fotos
+handle: kledinstuks
+name: kledinstuks
+sortOrder: 2
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

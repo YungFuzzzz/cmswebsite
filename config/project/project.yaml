@@ -1,16 +1,16 @@
-dateModified: 1704884000
+dateModified: 1704887628
 email:
   fromEmail: faisalcollinet01@gmail.com
   fromName: examendev3
   transportType: craft\mail\transportadapters\Sendmail
 fs:
-  hardDisk:
+  fotos:
     hasUrls: true
-    name: 'Hard Disk'
+    name: fotos
     settings:
-      path: '@webroot/uploads/images'
+      path: '@webroot/images/uploads/kledingstukken'
     type: craft\fs\Local
-    url: '@web/uploads/images'
+    url: '@web/images/uploads/kledingstukken'
 meta:
   __names__:
     7a2f49fe-ac5d-4177-b032-44160c199e9f: kledingstuk # kledingstuk
@@ -18,9 +18,11 @@ meta:
     6380f8e3-eeef-4d6c-be84-cf71930d8202: examendev3 # examendev3
     8078f98f-bb62-4b71-9f1c-98ffa0f6b8fd: maat # maat
     9093a0f4-4f15-4a41-9f9e-8fa12be41553: kleding # kleding
+    039988b5-303d-43e7-86a9-8559306726c9: 'transformed image' # transformed image
     739264b5-2615-4038-b1e8-89cd58a633e1: kleding # kleding
+    a95bdf60-81ed-4414-ab1d-3a2e0ed60d5b: kledinstuks # kledinstuks
     a907184e-1b03-4883-a673-9f6ef4b491f6: 'kleding naam' # kleding naam
-    da909e0d-92bd-4bf2-b37f-940584bc6ff5: image # image
+    da909e0d-92bd-4bf2-b37f-940584bc6ff5: 'kleding image' # kleding image
     e3eae8ac-df85-453d-8d66-4ad7a7769299: Common # Common
     e13fb833-3675-49d7-b89b-276702c9db8c: examendev3 # examendev3
 plugins:
